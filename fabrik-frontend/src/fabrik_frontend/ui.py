@@ -66,8 +66,8 @@ class App:
         t6 = ttk.Frame(nb)
         nb.add(t6, text="Bestellwarnungen")
         ttk.Button(t6, text="Aktualisieren", command=self.warnungen_laden).pack(pady=5)
-        self.tree_warn = ttk.Treeview(t6, columns=("ID","Teil","Bestand","Mindest","Zeitstempel"), show="headings")
-        for col in ("ID","Teil","Bestand","Mindest","Zeitstempel"):
+        self.tree_warn = ttk.Treeview(t6, columns=("ID","Teil","Bestand bei Warnung","Zeitstempel"), show="headings")
+        for col in ("ID","Teil","Bestand bei Warnung","Zeitstempel"):
             self.tree_warn.heading(col, text=col)
             self.tree_warn.column(col, width=160)
         self.tree_warn.pack(fill="both", expand=True, padx=5, pady=5)
@@ -94,7 +94,7 @@ class App:
     def warnungen_laden(self):
         for r in self.tree_warn.get_children(): self.tree_warn.delete(r)
         for w in api.get_bestellwarnungen():
-            self.tree_warn.insert("","end",values=(w["id"],w["teil_name"],w["bestand"],w["mindestbestand"],w["zeitstempel"]))
+            self.tree_warn.insert("","end",values=(w["id"],w["teil_name"],w["bestand_bei_warnung"],w["mindestbestand"],w["zeitstempel"]))
 
     def wareneingang(self):
         tid,m = self.e_teil.get(),self.e_menge.get()
