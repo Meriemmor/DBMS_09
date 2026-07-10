@@ -722,7 +722,8 @@ The connection dialog should appear. Enter the base URL (`http://128.140.85.215:
 
 > **Screenshot 6:** Take a screenshot of the main window showing the Parts tab populated with data from the live server.
 >
-> <img width="991" height="370" alt="image" src="https://github.com/user-attachments/assets/29018a8a-c3ee-4f56-b56e-a4026179db11" />
+> <img width="1112" height="527" alt="image" src="https://github.com/user-attachments/assets/e4a20c61-532d-41dc-b9b9-574520cc054f" />
+
 
 
 
@@ -759,7 +760,8 @@ In the **Parts** tab, use the *Deliver parts* form:
 
 > **Screenshot 7:** Parts tab after delivering, showing updated stock values.
 >
-> <img width="1103" height="345" alt="image" src="https://github.com/user-attachments/assets/559d48c5-27fe-440f-abec-db0a5ebbf511" />
+> <img width="1103" height="495" alt="image" src="https://github.com/user-attachments/assets/ddac7b2a-751f-477f-852a-d3fc9fd1d4a9" />
+
 
 
 ### Step 2 – Record a Production Run
@@ -772,7 +774,8 @@ In the **Products** tab, use the *Record production run* form:
 
 > **Screenshot 8:** Parts tab after production, showing reduced stock.
 >
-> `[insert screenshot]`
+> <img width="1108" height="348" alt="image" src="https://github.com/user-attachments/assets/e2725225-a14a-43b5-886e-fda97714fecb" />
+
 
 ### Step 3 – Check the Bill of Materials
 
@@ -780,7 +783,8 @@ Switch to the **Bill of Materials** tab. Enter Product ID `2` (Racing bike frame
 
 > **Screenshot 9:** Bill of Materials tab showing all five parts for the racing bike frame.
 >
-> `[insert screenshot]`
+> <img width="1095" height="488" alt="image" src="https://github.com/user-attachments/assets/3c18191e-7a8c-4727-b5ed-01c4afef3c66" />
+
 
 ### Step 4 – Check Out a Finished Product
 
@@ -790,7 +794,9 @@ In the **Products** tab, use the *Check out from warehouse* form:
 
 > **Screenshot 10:** Products tab after checkout, showing `Total out` incremented by 1.
 >
-> `[insert screenshot]`
+> <img width="1097" height="432" alt="image" src="https://github.com/user-attachments/assets/273b22fa-e3c7-4bdb-aca3-df4881ed5635" />
+
+
 
 ### Step 5 – Trigger a Reorder Warning
 
@@ -798,7 +804,8 @@ Deliver only 1 steel tube (Part ID `1`) to bring stock very low, then produce 1 
 
 > **Screenshot 11:** Reorder Warnings tab showing at least one warning entry.
 >
-> `[insert screenshot]`
+> <img width="1917" height="985" alt="image" src="https://github.com/user-attachments/assets/3585b88d-f802-4223-a102-d49c58c3d2fa" />
+
 
 ### Step 6 – Stocktake Correction
 
@@ -857,7 +864,8 @@ fabrik-frontend
 
 > **Screenshot 12:** Terminal showing `ls dist/` with both distribution files.
 >
-> `[insert screenshot]`
+> <img width="841" height="185" alt="image" src="https://github.com/user-attachments/assets/fe302116-7313-4a12-a166-bd72bc919a20" />
+
 
 ### Step 2 – Commit
 
