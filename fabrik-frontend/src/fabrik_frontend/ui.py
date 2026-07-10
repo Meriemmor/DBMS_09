@@ -94,7 +94,7 @@ class App:
     def warnungen_laden(self):
         for r in self.tree_warn.get_children(): self.tree_warn.delete(r)
         for w in api.get_bestellwarnungen():
-            self.tree_warn.insert("","end",values=(w["id"],w["teil_name"],w["bestand_bei_warnung"],w["mindestbestand"],w["zeitstempel"]))
+            self.tree_warn.insert("","end",values=(w["id"],w["teil_name"],w["bestand_bei_warnung"],w["zeitstempel"]))
 
     def wareneingang(self):
         tid,m = self.e_teil.get(),self.e_menge.get()
