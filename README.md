@@ -163,7 +163,8 @@ uv run python -c "import requests; print('requests', requests.__version__)"
 
 > **Screenshot 3:** Take a screenshot showing the output confirming `requests` is available.
 >
-> <img width="1010" height="127" alt="image" src="https://github.com/user-attachments/assets/773c4591-31eb-4ffa-bf78-cd70a67ed28c" />
+> <img width="943" height="107" alt="image" src="https://github.com/user-attachments/assets/d5cef92b-e703-47f5-9b4b-bb4a787c7429" />
+
 
 
 ### Step 5 – Commit
@@ -272,7 +273,8 @@ for p in parts:
 
 > **Screenshot 4:** Take a screenshot showing the parts list printed in the Python REPL.
 >
-> <img width="1057" height="90" alt="image" src="https://github.com/user-attachments/assets/821d468a-48af-4f1d-85c3-5e4ccb845eb9" />
+> <img width="437" height="171" alt="image" src="https://github.com/user-attachments/assets/122788bf-f5d1-49c7-9bbf-df188af4978f" />
+
 
 
 Exit with `exit()`.
@@ -712,12 +714,16 @@ The connection dialog should appear. Enter the base URL (`http://128.140.85.215:
 
 > **Screenshot 5:** Take a screenshot of the connection dialog.
 >
-> <img width="1103" height="456" alt="image" src="https://github.com/user-attachments/assets/b596508f-5a05-433e-b68f-213fa0d19fbf" />
+> <img width="667" height="252" alt="image" src="https://github.com/user-attachments/assets/703122f0-5c6d-4485-9652-a4ba73d7199f" />
+
+
+
 
 
 > **Screenshot 6:** Take a screenshot of the main window showing the Parts tab populated with data from the live server.
 >
-> <img width="1096" height="350" alt="image" src="https://github.com/user-attachments/assets/787be97f-5613-49a6-acd7-8914c89bf474" />
+> <img width="991" height="370" alt="image" src="https://github.com/user-attachments/assets/29018a8a-c3ee-4f56-b56e-a4026179db11" />
+
 
 
 ### Step 4 – Commit
@@ -753,7 +759,8 @@ In the **Parts** tab, use the *Deliver parts* form:
 
 > **Screenshot 7:** Parts tab after delivering, showing updated stock values.
 >
-> `[insert screenshot]`
+> <img width="1103" height="345" alt="image" src="https://github.com/user-attachments/assets/559d48c5-27fe-440f-abec-db0a5ebbf511" />
+
 
 ### Step 2 – Record a Production Run
 
