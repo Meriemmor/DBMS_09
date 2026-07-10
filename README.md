@@ -273,7 +273,8 @@ for p in parts:
 
 > **Screenshot 4:** Take a screenshot showing the parts list printed in the Python REPL.
 >
-> <img width="437" height="171" alt="image" src="https://github.com/user-attachments/assets/122788bf-f5d1-49c7-9bbf-df188af4978f" />
+> <img width="1222" height="950" alt="image" src="https://github.com/user-attachments/assets/65d104f9-a184-4818-a54b-31ce0ec7e470" />
+
 
 
 
