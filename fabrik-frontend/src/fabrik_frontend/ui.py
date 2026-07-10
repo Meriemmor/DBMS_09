@@ -19,30 +19,6 @@ class App:
         self.tree_teile.pack(fill="both", expand=True, padx=5, pady=5)
         t2 = ttk.Frame(nb)
         nb.add(t2, text="Produkte")
-        ttk.Button(t2, text="Aktualisieren", command=self.produkte_laden).pack(pady=5
-cd ~/DBMS_09/fabrik-frontend
-cat > src/fabrik_frontend/ui.py << 'PYEOF'
-import tkinter as tk
-from tkinter import ttk, messagebox
-import fabrik_frontend.api as api
-
-class App:
-    def __init__(self, root):
-        self.root = root
-        self.root.title("Fabrik Demo - THGA Bochum")
-        self.root.geometry("900x650")
-        nb = ttk.Notebook(root)
-        nb.pack(fill="both", expand=True, padx=10, pady=10)
-        t1 = ttk.Frame(nb)
-        nb.add(t1, text="Teile")
-        ttk.Button(t1, text="Aktualisieren", command=self.teile_laden).pack(pady=5)
-        self.tree_teile = ttk.Treeview(t1, columns=("ID","Name","Einheit","Bestand","Mindest","Status"), show="headings")
-        for col in ("ID","Name","Einheit","Bestand","Mindest","Status"):
-            self.tree_teile.heading(col, text=col)
-            self.tree_teile.column(col, width=130)
-        self.tree_teile.pack(fill="both", expand=True, padx=5, pady=5)
-        t2 = ttk.Frame(nb)
-        nb.add(t2, text="Produkte")
         ttk.Button(t2, text="Aktualisieren", command=self.produkte_laden).pack(pady=5)
         self.tree_prod = ttk.Treeview(t2, columns=("ID","Name","Bestand","Produziert","Ausgecheckt"), show="headings")
         for col in ("ID","Name","Bestand","Produziert","Ausgecheckt"):
@@ -76,13 +52,13 @@ class App:
         self.e_lager_menge = ttk.Entry(t5)
         self.e_lager_menge.pack()
         ttk.Button(t5, text="Ausbuchen", command=self.lagerausgang).pack(pady=10)
-        t_stueck = ttk.Frame(nb)
-        nb.add(t_stueck, text="Stueckliste")
-        ttk.Label(t_stueck, text="Produkt-ID:").pack(pady=2)
-        self.e_stueck_id = ttk.Entry(t_stueck)
-        self.e_stueck_id.pack()
-        ttk.Button(t_stueck, text="Laden", command=self.stueckliste_laden).pack(pady=5)
-        self.tree_stueck = ttk.Treeview(t_stueck, columns=("Teil","Menge","Einheit"), show="headings")
+        ts = ttk.Frame(nb)
+        nb.add(ts, text="Stueckliste")
+        ttk.Label(ts, text="Produkt-ID:").pack(pady=2)
+        self.e_stueck = ttk.Entry(ts)
+        self.e_stueck.pack()
+        ttk.Button(ts, text="Laden", command=self.stueckliste_laden).pack(pady=5)
+        self.tree_stueck = ttk.Treeview(ts, columns=("Teil","Menge","Einheit"), show="headings")
         for col in ("Teil","Menge","Einheit"):
             self.tree_stueck.heading(col, text=col)
             self.tree_stueck.column(col, width=200)
@@ -109,7 +85,7 @@ class App:
             self.tree_prod.insert("","end",values=(p["id"],p["name"],p["bestand"],p["gesamt_produziert"],p["gesamt_ausgecheckt"]))
 
     def stueckliste_laden(self):
-        pid = self.e_stueck_id.get()
+        pid = self.e_stueck.get()
         if not pid: messagebox.showerror("Fehler","Bitte Produkt-ID angeben"); return
         for r in self.tree_stueck.get_children(): self.tree_stueck.delete(r)
         for s in api.get_stueckliste(int(pid)):
