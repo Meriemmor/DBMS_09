@@ -49,7 +49,8 @@ Open that URL in your browser before writing a single line of code — the Swagg
 
 > **Screenshot 1:** Take a screenshot of the Swagger UI showing the list of available endpoints.
 >
-> `[insert screenshot]`
+> <img width="1826" height="616" alt="image" src="https://github.com/user-attachments/assets/2db5f479-3a1f-4a80-8c51-d1b8ee9ed3f6" />
+
 
 ---
 
@@ -102,7 +103,8 @@ python3 --version
 
 > **Screenshot 2:** Take a screenshot showing the version outputs of `uv` and `python3`.
 >
-> `[insert screenshot]`
+> <img width="623" height="137" alt="image" src="https://github.com/user-attachments/assets/953daef4-9867-4f34-bf79-4b3ab2cb3e5b" />
+
 
 ---
 
@@ -161,7 +163,8 @@ uv run python -c "import requests; print('requests', requests.__version__)"
 
 > **Screenshot 3:** Take a screenshot showing the output confirming `requests` is available.
 >
-> `[insert screenshot]`
+> <img width="1010" height="127" alt="image" src="https://github.com/user-attachments/assets/773c4591-31eb-4ffa-bf78-cd70a67ed28c" />
+
 
 ### Step 5 – Commit
 
@@ -269,7 +272,8 @@ for p in parts:
 
 > **Screenshot 4:** Take a screenshot showing the parts list printed in the Python REPL.
 >
-> `[insert screenshot]`
+> <img width="1057" height="90" alt="image" src="https://github.com/user-attachments/assets/821d468a-48af-4f1d-85c3-5e4ccb845eb9" />
+
 
 Exit with `exit()`.
 
@@ -708,11 +712,13 @@ The connection dialog should appear. Enter the base URL (`http://128.140.85.215:
 
 > **Screenshot 5:** Take a screenshot of the connection dialog.
 >
-> `[insert screenshot]`
+> <img width="1103" height="456" alt="image" src="https://github.com/user-attachments/assets/b596508f-5a05-433e-b68f-213fa0d19fbf" />
+
 
 > **Screenshot 6:** Take a screenshot of the main window showing the Parts tab populated with data from the live server.
 >
-> `[insert screenshot]`
+> <img width="1096" height="350" alt="image" src="https://github.com/user-attachments/assets/787be97f-5613-49a6-acd7-8914c89bf474" />
+
 
 ### Step 4 – Commit
 
