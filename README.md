@@ -775,7 +775,8 @@ In the **Products** tab, use the *Record production run* form:
 
 > **Screenshot 8:** Parts tab after production, showing reduced stock.
 >
-> <img width="1108" height="348" alt="image" src="https://github.com/user-attachments/assets/e2725225-a14a-43b5-886e-fda97714fecb" />
+> <img width="892" height="274" alt="image" src="https://github.com/user-attachments/assets/e2aa0b51-a43a-44ed-b47a-313f45da539a" />
+
 
 
 ### Step 3 – Check the Bill of Materials
@@ -865,7 +866,8 @@ fabrik-frontend
 
 > **Screenshot 12:** Terminal showing `ls dist/` with both distribution files.
 >
-> <img width="841" height="185" alt="image" src="https://github.com/user-attachments/assets/fe302116-7313-4a12-a166-bd72bc919a20" />
+> <img width="924" height="219" alt="image" src="https://github.com/user-attachments/assets/f76f7f25-569c-425a-bf4d-5cf9c58ac224" />
+
 
 
 ### Step 2 – Commit
