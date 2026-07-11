@@ -6,6 +6,8 @@
 **Prerequisites:** DBMS_01 – DBMS_08, Lecture 10  
 **Duration:** 120 minutes
 
+> **My implementation:** The complete application code for this exercise is in my repository: <https://github.com/Meriemmor/fabrik-frontend>
+
 ---
 
 ## Learning Objectives
