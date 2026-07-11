@@ -716,8 +716,7 @@ uv run python -m fabrik_frontend
 The connection dialog should appear. Enter the base URL (`http://128.140.85.215:8888`) and the API key from our Discord channel.
 
 > **Screenshot 5:** Take a screenshot of the connection dialog.
->
-> <img width="339" height="133" alt="image" src="https://github.com/user-attachments/assets/fc79cbff-b0b2-4c31-b463-03968df99992" />
+><img width="339" height="133" alt="image" src="https://github.com/user-attachments/assets/18949367-0240-4f57-8d9f-70d7bffe3fa4" />
 
 
 
