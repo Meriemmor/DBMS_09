@@ -717,7 +717,8 @@ The connection dialog should appear. Enter the base URL (`http://128.140.85.215:
 
 > **Screenshot 5:** Take a screenshot of the connection dialog.
 >
-> <img width="667" height="252" alt="image" src="https://github.com/user-attachments/assets/703122f0-5c6d-4485-9652-a4ba73d7199f" />
+> <img width="339" height="133" alt="image" src="https://github.com/user-attachments/assets/fc79cbff-b0b2-4c31-b463-03968df99992" />
+
 
 
 
