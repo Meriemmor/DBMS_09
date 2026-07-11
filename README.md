@@ -939,7 +939,8 @@ On Windows: `fabrik-frontend.exe` instead.
 
 > **Screenshot 13:** The application running from the PyInstaller-built executable.
 >
-> `[insert screenshot]`
+> <img width="895" height="361" alt="image" src="https://github.com/user-attachments/assets/797aa520-9a67-40b4-b110-f28b27cf1cb0" />
+
 
 > **Note:** PyInstaller builds are platform-specific. A build on Linux produces a Linux binary only. To distribute for all three platforms you need to build once on each operating system (or use a CI/CD pipeline).
 
