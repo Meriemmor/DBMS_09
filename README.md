@@ -1024,7 +1024,8 @@ Result: `fabrik-frontend-setup-0.1.0.exe` — a standard Windows installation wi
 
 > **Screenshot 15 (Windows only):** The Inno Setup installer wizard running.
 >
-> `[insert screenshot]`
+> <img width="586" height="459" alt="image" src="https://github.com/user-attachments/assets/4a3b945c-280c-4dc9-95bf-a324d74a5a5a" />
+
 
 ---
 
